@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "web",
+            "cwd": "sample",
+            "request": "launch",
+            "type": "dart",
+            "args": ["-d", "chrome"]
+        },
+        {
+
+            "name": "Android",
+            "cwd": "sample",
+            "request": "launch",
+            "type": "dart",
+            "args": ["-d", "emulator-5554"]
+        }
+    ]
+}
